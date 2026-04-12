@@ -55,7 +55,7 @@ img {
 form > div {
   padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 3px 4px rgba(0, 0, 0, .2), 0 -2px 12px rgba(0, 0, 0, .1);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, .2), 0 -1px 8px rgba(0, 0, 0, .08);
 }
 
 form h2 {
@@ -93,7 +93,7 @@ input:focus {
   box-shadow:  2px 3px 4px rgba(0, 0, 0, .2);
 }
 
-input:invalid {
+input:focus:invalid {
   border-color: #ff0000;
 }
 
